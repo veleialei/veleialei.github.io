@@ -1,0 +1,61 @@
+/* CSS only gallery (using radio inputs)
+ * See http://css-tricks.com/forums/topic/click-thumbnail-and-make-it-larger-image-image-gallery-wo-javascript/
+ * Support needed for IE7 & older - see http://css-tricks.com/child-and-sibling-selectors/
+ */
+ label{
+ 	margin: 1px;
+ }
+ .gallery{
+ 	//border:3px solid green;
+ 	//width: 80%;
+ 	float:right;
+ 	//margin-top:-200px;
+ }
+.wrapper .thumbnails {
+	width: 10%;
+	float: right;
+	margin-right:1.5%;
+  margin-top:-242px;
+}
+.wrapper .sm-pic {
+	margin-right:-20px;
+	margin-bottom:12px;
+	width: 50%;
+	top:0px;
+}
+.wrapper label > img {
+	opacity: 0.6;
+}
+.wrapper label > img:hover {
+	opacity: 1;
+}
+.wrapper input {
+	display: none;
+}
+.wrapper input:checked + .full-image {
+	display: block;
+}
+.wrapper input:checked ~ img {
+	opacity: 1;
+}
+.wrapper .full-image {
+	z-index:-1;
+	display: none;
+	position: absolute;
+	top: 5%;
+	left:12%;
+}
+.full-image .l-pic{
+
+	width:72%;
+	//display:block;
+}
+.wrapper .description {
+	width:45%;
+	background-color:black;
+	float:right;
+	margin-right:20%;
+	padding:5px;
+	font-size:20px;
+    color:#32CD32;
+}

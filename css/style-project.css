@@ -1,0 +1,28 @@
+.list{
+padding:20px;
+margin-top:-250px;
+}
+.link{
+  color:green;
+  font-style:italic;
+  margin-left:4px;
+}
+hr{
+  display:block;
+  margin-top:8px;
+  margin-bottom:8px;
+  float:left;
+  width:68%;
+}
+ul{
+  overflow: hidden;
+  padding-bottom:6px;
+  text-align: left;
+  font-size:18px;
+  width:70%;
+}
+li{
+  margin-top:5px;
+  text-align: left;
+  font-size:14px;
+}

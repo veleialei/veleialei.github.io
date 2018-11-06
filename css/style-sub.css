@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Sniglet);
+html {
+
+    color:green;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: ‘Lucida Console’, Monaco, monospace;
+    text-align: center;
+    letter-spacing: 3px;
+}
+a{
+    font-weight: 800;
+    color:#32CD32;
+    cursor:pointer;
+}
+body{ background-size:100%;
+     background-color:black;
+}
+.contact,.design,.project,.about{
+    font-weight: bold;
+    border: 5px solid #32CD32;
+    padding:12px;
+    border-radius:10%;
+}
+.contact{
+    position:absolute;
+    left:5%;
+    top:25%;
+}
+.design{
+    position:absolute;
+    left:14%;
+    bottom:38%;
+}
+.project{ 
+    position:absolute;
+    right:10%;
+    top:18%;
+}
+.about{
+    position:absolute;
+    right:6.5%;
+    bottom:14%;
+}
+@-webkit-keyframes swinging {
+  0% { -webkit-transform: rotate(0.8deg); }
+   50% { -webkit-transform: rotate(-0.8deg); }
+   100% { -webkit-transform: rotate(0.8deg); }
+}
+.img{
+    z-index:-1;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    -webkit-animation:swinging 4s ease-in-out 0s infinite;
+   -moz-animation:swinging 4s ease-in-out 0s infinite;
+   animation:swinging 4s ease-in-out 0s infinite;
+   -webkit-transform-origin: 50% 100%;
+   -moz-transform-origin: 50% 100%;
+   transform-origin: 50% 100%;
+}
+.container {
+    margin-top: 15%;
+    font-size: 1em;
+}
+.button{
+    font-size:0.5em;
+}
+.text {
+    z-index:100;
+    line-height: 2em;
+}
+
+.container .underscore {
+    display: inline;
+    color: #fff;
+}
+
+.hidden {
+    opacity: 0;
+}
