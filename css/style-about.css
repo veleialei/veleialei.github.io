@@ -13,7 +13,7 @@
   cursor:pointer;
 }
 td{
-  font-size:16px;
+  font-size:14px;
   padding-top:7px;
 }
 th{
@@ -54,7 +54,7 @@ hr{
   float:left;
   width:68%;
 }
-ul{
+.ul_normal{
   overflow: hidden;
   padding-bottom:7px;
   text-align: left;
@@ -64,11 +64,14 @@ ul{
 li{
   margin-top:6px;
   text-align: left;
-  font-size:15px;
+  font-size:13px;
   padding:2px;
 }
 .like{
-  width:15% !important;
+  font-size:18px;
+  text-align: left;
+  overflow: hidden;
+  width:18% !important;
   display:inline !important;
   float:left !important;
 }
