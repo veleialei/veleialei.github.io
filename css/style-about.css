@@ -22,11 +22,17 @@ th{
 table{
   width:100%;
 }
-.outside-link, .general{
+.general{
   text-align: left;
   width:70%;
-  font-size:18px;  
-} 
+  font-size:18px;
+}
+.outside-link,{
+  text-align: center;
+  width:70%;
+  font-size:18px;
+  margin-left: 15%;
+}
 .col{
   width:20%;
   display:inline-block;
@@ -49,14 +55,20 @@ hr{
   width:68%;
 }
 ul{
-  overflow: hidden;  
-  padding-bottom:6px;  
+  overflow: hidden;
+  padding-bottom:7px;
   text-align: left;
   font-size:18px;
   width:70%;
 }
 li{
-  margin-top:5px;
+  margin-top:6px;
   text-align: left;
   font-size:15px;
+  padding:2px;
+}
+.like{
+  width:15%;
+  display:inline;
+  float:left;
 }
