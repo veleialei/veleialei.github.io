@@ -1,5 +1,5 @@
 .title{
-  width:70%;
+  width:75%;
   display:block;
   text-decoration: underline;
   font-size:23px;
@@ -24,7 +24,7 @@ table{
 }
 .general{
   text-align: left;
-  width:70%;
+  width:75%;
   font-size:18px;
 }
 .outside-link{
@@ -52,20 +52,20 @@ hr{
   margin-top:8px;
   margin-bottom:12px;
   float:left;
-  width:68%;
+  width:73%;
 }
 .ul_normal{
   overflow: hidden;
-  padding-bottom:7px;
+  padding:3px;
   text-align: left;
   font-size:18px;
-  width:70%;
+  width:76%;
 }
 li{
-  margin-top:6px;
+  margin-top:3px;
   text-align: left;
   font-size:13px;
-  padding:2px;
+  padding:1px;
 }
 .like{
   font-size:18px;
