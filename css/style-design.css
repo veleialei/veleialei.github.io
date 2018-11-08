@@ -9,13 +9,12 @@
  	//border:3px solid green;
  	//width: 80%;
  	float:right;
- 	//margin-top:-200px;
  }
 .wrapper .thumbnails {
 	width: 10%;
 	float: right;
 	margin-right:1.5%;
-  margin-top:-80px;
+  margin-top:145px;
 }
 .wrapper .sm-pic {
 	margin-right:-20px;
